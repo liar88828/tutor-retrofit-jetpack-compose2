@@ -1,4 +1,4 @@
-package com.example.retrofit_tutor.data
+package com.example.retrofit_tutor.data.model
 
 sealed class Result<T>(
     val data: T? = null,

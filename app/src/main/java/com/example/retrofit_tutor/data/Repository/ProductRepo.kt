@@ -1,7 +1,7 @@
 package com.example.retrofit_tutor.data.Repository
 
+import com.example.retrofit_tutor.data.model.Result
 import com.example.retrofit_tutor.data.model.Product
-import com.example.retrofit_tutor.data.model.Products
 import kotlinx.coroutines.flow.Flow
 
 interface ProductRepo {

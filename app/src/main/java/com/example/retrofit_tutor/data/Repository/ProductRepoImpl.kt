@@ -1,12 +1,11 @@
 package com.example.retrofit_tutor.data.Repository
 
-import com.example.retrofit_tutor.data.Apis
+import com.example.retrofit_tutor.data.model.Apis
 import com.example.retrofit_tutor.data.model.Product
 import kotlinx.coroutines.flow.Flow
 import retrofit2.HttpException
 import java.io.IOException
-import com.example.retrofit_tutor.data.Result
-import com.example.retrofit_tutor.data.model.Products
+import com.example.retrofit_tutor.data.model.Result
 import kotlinx.coroutines.flow.flow
 
 class ProductRepoImpl(

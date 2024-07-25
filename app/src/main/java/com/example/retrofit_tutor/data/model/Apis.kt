@@ -1,9 +1,6 @@
-package com.example.retrofit_tutor.data
+package com.example.retrofit_tutor.data.model
 
-import com.example.retrofit_tutor.data.model.Product
-import com.example.retrofit_tutor.data.model.Products
 import retrofit2.http.GET
-import retrofit2.http.Path
 
 interface Apis {
     @GET("/products")
